@@ -1,0 +1,75 @@
+.App{
+    background-color: aliceblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Body{
+    height: 70vh;
+    width: 70%;
+    background-color: black;
+    border-radius: 10px;
+    color: aliceblue;
+    opacity: 0.8;
+    text-align: center;
+    overflow: hidden;
+    /* text-align: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* padding: 5px; */
+
+}
+.rowForm{
+    border: 1px solid wheat;
+    padding: 2px;
+    margin: auto auto;
+}
+.myRow{
+    width: 100%;
+}
+.myRow1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+ul{
+    margin-top: 10px;
+}
+li{
+    overflow: hidden;
+}
+.item{
+    background-color: transparent;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    font-size: 25px;
+    border: 1px solid aliceblue;
+    /* background-color: aliceblue; */
+    overflow: hidden;
+}
+i{
+    cursor: pointer;
+    margin-left: 5px;
+}
+.icons{
+    width: 20%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+}
+.text-li{
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* overflow: scroll; */
+    /* overflow: visible; */
+    /* background-color: aqua; */
+    /* flex-grow:unset; */
+    /* overflow: hidden; */
+    /* word-wrap: break-word; */
+    word-break: break-all;
+}
